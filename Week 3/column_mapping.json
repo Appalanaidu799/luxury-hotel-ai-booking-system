@@ -1,0 +1,15 @@
+{
+  "id": "booking_id",
+  "booking_date": null,
+  "checkin": "arrival_date_year",
+  "checkout": null,
+  "nights": "stays_in_weekend_nights",
+  "lead_time": "lead_time",
+  "price": null,
+  "status": "is_canceled",
+  "guests": null,
+  "segment": null,
+  "hotel": "hotel",
+  "room": null,
+  "country": "country"
+}

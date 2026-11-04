@@ -1,0 +1,13 @@
+dataset,check,status,detail
+raw,not empty,PASS,30000 rows
+raw,no duplicate rows,PASS,0 duplicates
+raw,no missing values,PASS,
+raw,lead_time >= 0,PASS,0 negative
+raw,stays_in_weekend_nights >= 0,PASS,0 negative
+raw,is_canceled is 0/1,PASS,
+cleaned,not empty,PASS,30000 rows
+cleaned,no duplicate rows,PASS,0 duplicates
+cleaned,no missing values,WARN,"price_capped=30000, revenue=30000"
+cleaned,lead_time >= 0,PASS,0 negative
+cleaned,stays_in_weekend_nights >= 0,PASS,0 negative
+cleaned,is_canceled is 0/1,PASS,

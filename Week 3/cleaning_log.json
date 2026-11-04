@@ -1,0 +1,26 @@
+[
+  {
+    "step": "trim text",
+    "detail": "14 text columns stripped"
+  },
+  {
+    "step": "duplicates",
+    "detail": "removed 0 exact duplicate rows"
+  },
+  {
+    "step": "parse date",
+    "detail": "arrival_date_year: 0 unparseable values set to missing"
+  },
+  {
+    "step": "derive",
+    "detail": "is_canceled built from is_canceled"
+  },
+  {
+    "step": "invalid",
+    "detail": "lead_time: removed 0 negative rows"
+  },
+  {
+    "step": "invalid",
+    "detail": "stays_in_weekend_nights: removed 0 negative rows"
+  }
+]

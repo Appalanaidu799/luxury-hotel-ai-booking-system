@@ -1,7 +1,7 @@
 [
   {
     "step": "trim text",
-    "detail": "17 text columns stripped"
+    "detail": "14 text columns stripped"
   },
   {
     "step": "duplicates",
@@ -9,19 +9,11 @@
   },
   {
     "step": "parse date",
-    "detail": "arrival_year: 0 unparseable values set to missing"
+    "detail": "arrival_date_year: 0 unparseable values set to missing"
   },
   {
     "step": "derive",
     "detail": "is_canceled built from is_canceled"
-  },
-  {
-    "step": "missing",
-    "detail": "country: 128 missing, filled with 'Unknown'"
-  },
-  {
-    "step": "invalid",
-    "detail": "average_daily_rate: removed 1 negative rows"
   },
   {
     "step": "invalid",
@@ -30,13 +22,5 @@
   {
     "step": "invalid",
     "detail": "stays_in_weekend_nights: removed 0 negative rows"
-  },
-  {
-    "step": "invalid",
-    "detail": "adults: removed 97 rows with zero guests"
-  },
-  {
-    "step": "outliers",
-    "detail": "average_daily_rate: 986 values above IQR cap 209.75, capped"
   }
 ]

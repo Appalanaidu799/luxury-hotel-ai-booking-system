@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "rows": 30000,
+  "filters": {},
+  "stats": {
+    "total_bookings": 30000,
+    "overall_cancellation": {
+      "rate_pct": 37.04,
+      "rows": 30000
+    },
+    "avg_price": {
+      "avg_price": null,
+      "rows": 30000
+    },
+    "lead_time": {
+      "not_canceled": {
+        "count": 18887,
+        "mean": 78.84,
+        "median": 45.0,
+        "std": 89.75
+      },
+      "canceled": {
+        "count": 11113,
+        "mean": 142.38,
+        "median": 112.0,
+        "std": 117.67
+      },
+      "correlation_with_cancellation": 0.29
+    },
+    "total_revenue_kept_bookings": {
+      "total_revenue": 0.0,
+      "rows": 0
+    },
+    "cancellation_by_hotel": {
+      "City Hotel": 41.73,
+      "Resort Hotel": 27.76
+    },
+    "avg_price_by_hotel": {
+      "avg_price": null,
+      "rows": 30000
+    },
+    "revenue_by_hotel": {
+      "total_revenue": 0.0,
+      "rows": 0
+    },
+    "top_hotel": {
+      "City Hotel": 19933,
+      "Resort Hotel": 10067
+    },
+    "cancellation_by_country": {
+      "India": 37.04
+    },
+    "avg_price_by_country": {
+      "avg_price": null,
+      "rows": 30000
+    },
+    "revenue_by_country": {
+      "total_revenue": 0.0,
+      "rows": 0
+    },
+    "top_country": {
+      "India": 30000
+    },
+    "cancellation_by_month": {
+      "January": 37.04
+    },
+    "avg_price_by_month": {
+      "avg_price": null,
+      "rows": 30000
+    },
+    "revenue_by_month": {
+      "total_revenue": 0.0,
+      "rows": 0
+    },
+    "top_month": {
+      "January": 30000
+    },
+    "cancellation_by_season": {
+      "Winter": 37.04
+    },
+    "avg_price_by_season": {
+      "avg_price": null,
+      "rows": 30000
+    },
+    "revenue_by_season": {
+      "total_revenue": 0.0,
+      "rows": 0
+    },
+    "top_season": {
+      "Winter": 30000
+    }
+  },
+  "insights": [
+    "37.04% of the 30000 bookings were canceled.",
+    "Cancellations differ by hotel: City Hotel is highest at 41.73% and Resort Hotel is lowest at 27.76% (gap 13.97 points). This difference is statistically significant (p=0.0000).",
+    "Canceled bookings have a longer average lead time (142.38 days) than kept bookings (78.84 days)."
+  ],
+  "recommendations": [
+    "Consider a deposit or a reminder message for hotel = City Hotel bookings, where cancellations are highest.",
+    "Bookings made far in advance cancel more often, so send a confirmation reminder as the stay gets closer."
+  ],
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+test,result,detail
+cancellation rate matches plain Pandas,PASS,
+average price matches plain Pandas,FAIL,AssertionError: 
+empty input returns a safe result,PASS,
+single row does not crash,PASS,
+all bookings canceled -> 100%,PASS,
+"no bookings canceled -> 0%, only kept group in lead time",PASS,
+"unknown group column returns None, not an exception",PASS,
+unknown filter column is rejected with a clear error,PASS,
+unknown filter value is rejected with a clear error,PASS,
+valid filter returns insights and recommendations,PASS,
+wrong filter type is handled,PASS,
+nulls injected into price do not crash the stats,PASS,
+validation flags an injected negative price as FAIL,FAIL,AssertionError: 
+cleaned data has no FAIL checks,PASS,
+loader reports a missing file clearly,PASS,
+stats JSON can be serialized for the API,PASS,
